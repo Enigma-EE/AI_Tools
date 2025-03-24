@@ -31,18 +31,9 @@
 
 ### 安装步骤
 
-1. **克隆仓库**
-```bash
-git clone https://github.com/yourusername/ai-tools-navigator.git
-cd ai-tools-navigator
-```
 
-2. **设置虚拟环境**
-```bash
-python -m venv venv
-```
 
-3. **激活环境**
+1. **激活环境**
 ```bash
 # Windows
 venv\Scripts\activate
@@ -51,7 +42,7 @@ venv\Scripts\activate
 source venv/bin/activate
 ```
 
-4. **安装依赖**
+2. **安装依赖**
 ```bash
 pip install -r requirements.txt
 ```
