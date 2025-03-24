@@ -1,0 +1,14 @@
+# 创建虚拟环境
+python -m venv venv
+
+# 激活环境（Windows）
+.\venv\Scripts\activate
+
+python app.py
+
+
+# 激活后安装Flask
+pip install flask
+
+# 终止当前服务
+Ctrl + C

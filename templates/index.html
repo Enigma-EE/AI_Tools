@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI工具导航</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI工具导航 🚀</h1>
+        <input type="text" id="search" placeholder="🔍 输入名称/描述/标签..." 
+               onkeyup="window.location.search = '?search=' + this.value">
+        
+        <div class="tool-grid">
+            {% for tool in tools %}
+            <div class="tool-card">
+                <h2>{{ tool.name }}</h2>
+                <p>{{ tool.desc }}</p>
+                <div class="tags">
+                    {% for tag in tool.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </div>
+                <a href="{{ tool.url }}" target="_blank" class="link">立即访问 →</a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</body>
+</html>
