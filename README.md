@@ -9,15 +9,18 @@
 
 ## 🛠️ 包含的AI工具
 
-| 工具名称 | 类别 | 特点 |
-|---------|------|------|
+| 工具名称 | 类别 | 特点 | 访问链接 |
+|---------|------|------|----------|
 | 斯坦福STORM | 学术研究 | 斯坦福大学开发的AI系统 |
 | ChatGPT | 通用对话 | OpenAI旗舰产品 |
 | Claude | 长文本处理 | Anthropic开发的AI助手 |
 | Google AI Studio | 开发平台 | Google AI开发工具 |
-| Deepseek | 中文AI | 深度求索的聊天AI |
-| 智谱清言 | 中文AI | 清华智谱开发 |
-...
+| Google Gemini | 多模态AI | Google最新AI模型 | 
+| Deepseek | 中文AI | 深度求索的聊天AI | 
+| 扣子 | AI Bot平台 | 字节跳动的AI平台 | 
+| QWEN | 中文AI | 通义千问AI | 
+| GitHub镜像站 | 开发工具 | GitHub镜像访问 | 
+| 智谱清言 | 中文AI | 清华智谱的AI | 
 
 
 ## 🚀 快速开始
