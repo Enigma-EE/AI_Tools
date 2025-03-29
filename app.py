@@ -63,6 +63,12 @@ tools = [
         "url": "https://chatglm.cn/main/alltoolsdetail?redirect=/main/alltoolsdetail&lang=zh",
         "desc": "清华智谱的AI",
         "tags": ["中文", "学术", "免费"]
+    },
+    {
+        "name": "Hugging Face Spaces",
+        "url": "https://huggingface.co/spaces",
+        "desc": "托管和分享机器学习Demo的平台",
+        "tags": ["开发", "AI模型", "开源"]
     }
 ]
 
